@@ -45,7 +45,7 @@ Swarm cluster:
 
 ![Service replication](/assets/images/swarm/cluster.png)
 
-## Being fault tolerant and scalable
+#### Being fault tolerant and scalable
 
 The answer for achieving fault tolerance and scalability was Docker Swarm, which allows you to easily create a cluster of nodes (servers) acting as if they were a unit of computing power.
 
@@ -59,7 +59,7 @@ How a service is replicated:
 
 ![Service replication](/assets/images/swarm/service.png)
 
-## Easily creating environments with the Stack concept
+#### Easily creating environments with the Stack concept
 
 Once we had the problem of replication and fault tolerance solved, we wanted to find an easy way to create or destroy environments with minimum effort. The answer was the Stack concept that Docker offers.
 
